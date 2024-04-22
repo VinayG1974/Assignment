@@ -1,0 +1,91 @@
+.checkout-container {
+  width: 60%;
+  margin: 0 auto;
+}
+.order-summary {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.order-summary h3 {
+  margin-top: 0;
+}
+.order-summary ul {
+  list-style: none;
+  padding: 0;
+}
+.order-summary li {
+  margin-bottom: 5px;
+}
+.delivery-info {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+.delivery-info h3 {
+  margin-top: 0;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+.btn-submit {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-location {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-submit:hover {
+  background-color: #45a049;
+}
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popup {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.popup p {
+  margin-bottom: 10px;
+}
+.popup button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.popup button:hover {
+  background-color: #0056b3;
+}
